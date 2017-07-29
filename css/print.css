@@ -1,0 +1,15 @@
+/*
+CSS file created with:Instant Blueprint - Create a web project framework in seconds.
+http://instantblueprint.com
+*/
+
+body {
+background: #FFF;
+color:#000;
+font-size: 13px;
+font-family:Arial, Helvetica, Geneva,sans-serif;
+}
+
+a:link, a:visited {
+color: #000e93;
+}

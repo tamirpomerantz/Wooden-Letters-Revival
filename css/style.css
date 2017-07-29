@@ -1,0 +1,24 @@
+/*
+CSS file created with:Instantblueprint - Create a web project framework in seconds.
+http://instantblueprint.com
+Project: Simple
+File: css/style.css
+Last edited: January 16, 2016, 5:52 pm
+*/
+
+/*  Main  */
+body {
+ background:#FFF;
+ color:#000;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+}
+
+#wrapper {
+ margin:0 auto;
+ width:960px; /*  Change to desired width :)  */
+}
+
+ {
+}
+
