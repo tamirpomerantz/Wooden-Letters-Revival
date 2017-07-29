@@ -61,7 +61,7 @@ body {
 }
 
 .wl-arrow.wl-download {
-    left: calc(50% - 20px);
+    left: calc(50% - 30px);
     width: 60px;
     height: 60px;
     background-image: url('../images/arrow-down.svg');
