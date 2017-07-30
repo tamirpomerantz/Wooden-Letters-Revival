@@ -11,6 +11,12 @@ $(document).ready(function () {
     });
 
     
+
+    $(".wl-carousel").on("beforeChange", function (){
+    $( ".wl-download__lbl" ).html($(".slick-active").attr('data-link').split("/")[1]);
+})
+
+
     $( ".wl-download" ).on( "click", function(e) {
     // console.log();
      e.preventDefault();  //stop the browser from following

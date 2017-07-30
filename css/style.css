@@ -1,14 +1,4 @@
-/*
-CSS file created with:Instantblueprint - Create a web project framework in seconds.
-http://instantblueprint.com
-Project: Simple
-File: css/style.css
-Last edited: January 16, 2016, 5:52 pm
-*/
-
-
-/*  Main  */
-
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 body {
     background: #FFF;
     color: #000;
@@ -23,13 +13,60 @@ body {
 }
 
 .wl-stamp {
-    position:fixed;
-    top:20px;
-    left:20px;
-    width:60px;
-    height:60px;
-    background:url('../images/tag.svg');
-    z-index:10;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    background: url('../images/tag.svg');
+    z-index: 10;
+}
+
+.wl-info {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 60px;
+    height: 60px;
+    background: url('../images/info.svg');
+    z-index: 10;
+}
+
+.wl-info .wl-tooltip {
+    position: absolute;
+    top: -160px;
+    left: 30px;
+    width: 226px;
+    /* height: 100px; */
+    /* display: none; */
+    font-family: 'Roboto Mono', monospace;
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+    line-height: 16px;
+    font-size: 12px;
+    padding: 16px 16px;
+    color: #fff;
+    border-radius: 3px;
+    background: #120A33;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.13);
+    display: inline-block;
+}
+
+.wl-info .wl-tooltip a {
+    transition: all 0.2s ease-in;
+    color: red;
+    text-decoration: none;
+    border-bottom: 1px solid red;
+}
+
+.wl-info .wl-tooltip a:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.wl-info:hover .wl-tooltip {
+    opacity: 1;
+    top: 30px;
 }
 
 .posterWrapper img {
@@ -65,5 +102,19 @@ body {
     width: 60px;
     height: 60px;
     background-image: url('../images/arrow-down.svg');
-    bottom: 22px;
+    bottom: 32px;
+}
+
+.wl-download__lbl {
+    display: none;
+    position: absolute;
+    top: 0px;
+    line-height: 16px;
+    font-size: 12px;
+    padding: 2px 8px;
+    color: red;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.13);
+    white-space: nowrap;
 }
