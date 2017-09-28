@@ -1,7 +1,7 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-"/kaf-hb/gimel-hb"
+"tt/alef-hb/vav-hb/lamed-hb/yod-hb/gimel-hb/resh-hb/finalkaf-hb"
 );
 date = "2017-07-23 12:50:59 +0000";
 familyName = "new Font";
@@ -537,7 +537,7 @@ unicode = 007A;
 },
 {
 glyphname = "alef-hb";
-lastChange = "2017-07-24 05:28:42 +0000";
+lastChange = "2017-07-24 15:09:41 +0000";
 layers = (
 {
 associatedMasterId = "36AFE598-F86C-43EE-BCBF-B60937A96A5C";
@@ -795,66 +795,55 @@ paths = (
 {
 closed = 1;
 nodes = (
-"122 16 LINE",
-"96 16 OFFCURVE",
-"88 32 OFFCURVE",
-"88 57 CURVE",
-"88 80 LINE",
-"30 80 LINE",
-"30 53 LINE",
-"30 -1 LINE",
-"30 -61 OFFCURVE",
-"69 -100 OFFCURVE",
-"129 -100 CURVE",
-"149 -100 LINE",
-"149 16 LINE"
+"250 174 OFFCURVE",
+"285 56 OFFCURVE",
+"285 -1 CURVE",
+"343 -1 LINE",
+"343 313 OFFCURVE",
+"154 420 OFFCURVE",
+"37 420 CURVE",
+"30 420 LINE",
+"30 174 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"30 100 LINE",
-"88 100 LINE",
-"89 420 LINE",
-"31 420 LINE"
+"280 154 OFFCURVE",
+"285 149 OFFCURVE",
+"285 134 CURVE",
+"285 154 LINE",
+"343 154 LINE",
+"343 371 LINE",
+"343 398 OFFCURVE",
+"321 420 OFFCURVE",
+"294 420 CURVE",
+"244 420 LINE",
+"244 154 LINE",
+"264 154 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"30 66 LINE",
-"162 66 LINE",
-"190 66 OFFCURVE",
-"209 50 OFFCURVE",
-"209 15 CURVE",
-"209 0 LINE",
-"267 0 LINE",
-"267 25 LINE",
-"267 84 OFFCURVE",
-"228 124 OFFCURVE",
-"168 124 CURVE",
-"30 124 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"204 154 OFFCURVE",
-"209 149 OFFCURVE",
-"209 134 CURVE",
-"209 92 LINE",
-"267 92 LINE",
-"267 371 LINE",
-"267 398 OFFCURVE",
-"245 420 OFFCURVE",
-"218 420 CURVE",
-"138 420 LINE",
-"138 154 LINE",
-"188 154 LINE"
+"93 106 OFFCURVE",
+"88 111 OFFCURVE",
+"88 126 CURVE",
+"88 138 LINE",
+"130 181 LINE",
+"72 185 LINE",
+"30 138 LINE",
+"30 49 LINE",
+"30 22 OFFCURVE",
+"52 0 OFFCURVE",
+"79 0 CURVE",
+"161 0 LINE",
+"161 106 LINE",
+"109 106 LINE"
 );
 }
 );
-width = 297;
+width = 373;
 }
 );
 unicode = 05D0;
